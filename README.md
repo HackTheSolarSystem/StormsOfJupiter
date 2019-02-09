@@ -7,6 +7,7 @@
 * Rebecca D'Agostino [@rd16395p](https://github.com/rd16395p)
 * Russell Brown [@cmonkey03](https://github.com/cmonkey03)
 * Rachel Cohen [@rachelfreya](https://github.com/rachelfreya)
+* Mallory Feuer [@mfeuer23](https://github.com/mfeuer23)
 
 ### Solution Description
 
