@@ -8,6 +8,7 @@
 * Russell Brown [@cmonkey03](https://github.com/cmonkey03)
 * Rachel Cohen [@rachelfreya](https://github.com/rachelfreya)
 * Mallory Feuer [@mfeuer23](https://github.com/mfeuer23)
+* Victoria Levchenko [@vlevchenko](https://github.com/vlevchenko)
 
 ### Solution Description
 
