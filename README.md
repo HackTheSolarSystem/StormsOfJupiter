@@ -23,7 +23,7 @@ The goal of our project is to **train a neural net on a sequence of raw Juno ima
 - Write a script to convert IMG format to PNG
 
 ### File Structure and Description
-
+enviroment.yml - creates the enviroment for anaconda 
 rename.py - Renames the images in order to be read by the matlab files later.  
 cnn.py - Mock example of a CNN that could be used with the GAN in future studies.  
 gan.py - Basic structure and example of the GAN used in this project.  
@@ -42,8 +42,10 @@ gan.py - Takes the generated .csv and outputs .png files every 20 epochs.
 
 You must list by name all software packages, APIs, frameworks, databases, or any other tools or libraries you used.
 
-You must also provide any step-by-step instructions for installation of your solution.
-* Step one - install package manager
+You must also provide any step-by-step instructions for installation of your solution.  
+* Step one - install package manager  
+Anaconda is used to handle the python packages and run the python scripts.
+Matlab is used to run the matlab scripts. 
 * Step two - special config instructions
 * Step three - system administration notes
 * Step four - command line how-to, listing descriptions of all optional arguments
