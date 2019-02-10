@@ -1,15 +1,15 @@
 p = 1;
 
-for imageN = 2:1401
+for imageN = 2:7
     name = ['Image',num2str(imageN),'.jpg'];
     I1=imread(name);
-    I2 = imresize(I1,[256 256]); 
+    I2 = imresize(I1,[28 28]); 
     %In=rgb2gray(I2); % use if the image containing RGB value 3
     %figure;imshow(In);
     %imwrite(In,name) ;
     %name = ['Image',num2str(imageN),'.jpg'];
     %I1=imread(name);
-    %I2 = imresize(I1,[256 256]); 
+    %I2 = imresize(I1,[28 28]); 
        % Get the number of rows and columns, 
 % and, most importantly, the number of color channels.
     [rows, columns, numberOfColorChannels] = size(I2);
