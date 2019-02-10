@@ -56,3 +56,6 @@ conda env create -f environment.yml  once anaconda is installed, within the anac
 2. run resize.m  
 3. run generateimages.m  
 4. gan.py  
+
+![generator](generator.png)
+![descriminator](descriminator.png)
