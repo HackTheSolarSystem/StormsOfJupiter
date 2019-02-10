@@ -14,7 +14,7 @@
 
 The goal of our project is to **train a neural net on a sequence of raw Juno images to then generate the n+1 image in that sequence**.
 
-1. Rebecca set up the neural net cluster a (GAN) and is working on a pipeline to feed the images into the cluster to train the model. This neural net will be able to **generate images to fill gaps within the sequence**, meaning if we take an image at _t=0_ and _t=1m_, we could provide an image for _t=0.5m_. The stretch goal is to then have the neural net provide the n+1 image.
+1. Rebecca set up the neural network (GAN) and is working on a pipeline to feed the images into the cluster to train the model. This neural network will be able to **generate images to fill gaps within the sequence**, meaning if we take an image at _t=0_ and _t=1m_, we could provide an image for _t=0.5m_. The stretch goal is to then have the neural net provide the n+1 image via using a CNN as a secondary classifier, or exploring other options as seen in publications. 
 
 2. Victoria worked on another neural net (RNN with a LSTM twist) which will train on the behavior of the storm given the LBL files and predict the path of the storms and other characteristics.
 
