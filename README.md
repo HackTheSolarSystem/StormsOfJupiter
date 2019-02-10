@@ -49,4 +49,8 @@ Matlab is used to run the matlab scripts.
 * Step two - special config instructions  
 conda env create -f environment.yml  once anaconda is installed, within the anaconda prompt/command line/terminal.   
 * Step three - system administration notes
-* Step four - command line how-to, listing descriptions of all optional arguments
+* Step four - command line how-to, listing descriptions of all optional arguments  
+1. run rename.py.
+2. run resize.m  
+3. run generateimages.m  
+4. gan.py  
