@@ -46,6 +46,7 @@ You must also provide any step-by-step instructions for installation of your sol
 * Step one - install package manager  
 Anaconda is used to handle the python packages and run the python scripts.
 Matlab is used to run the matlab scripts. 
-* Step two - special config instructions
+* Step two - special config instructions  
+conda env create -f environment.yml  once anaconda is installed, within the anaconda prompt/command line/terminal.   
 * Step three - system administration notes
 * Step four - command line how-to, listing descriptions of all optional arguments
