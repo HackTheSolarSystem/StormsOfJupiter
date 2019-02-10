@@ -16,6 +16,8 @@ The goal of our project is to **train a neural net on a sequence of raw Juno ima
 
 1. Rebecca set up the neural network (GAN) and is working on a pipeline to feed the images into the cluster to train the model. This neural network will be able to **generate images to fill gaps within the sequence**, meaning if we take an image at _t=0_ and _t=1m_, we could provide an image for _a random point in the time series_. The stretch goal is to then have the neural net provide the n+1 image via using a CNN as a secondary classifier, or exploring other options as seen in publications. Along with this, we can try to measure where the location of the storms are to place it in the time line.
 
+Thank you to this helpful post - https://medium.com/datadriveninvestor/generative-adversarial-network-gan-using-keras-ce1c05cfdfd3   
+
 2. Victoria worked on another neural net (RNN with a LSTM twist) which will train on the behavior of the storm given the LBL files and predict the path of the storms and other characteristics.
 
 #### Further Development
@@ -29,7 +31,7 @@ cnn.py - Mock example of a CNN that could be used with the GAN in future studies
 gan.py - Basic structure and example of the GAN used in this project.  
 README.md  
 /smalljupiter - the first GAN created, generates images that (28*28) are supposed to be mimicking images found on the juno site of Jupiter.  
-/smalljupiter - the second GAN created, generates images that (28*28) are supposed to be mimicking images from (put that there).  
+/smalljupiter - the second GAN created, generates images that (28*28) are supposed to be mimicking images from Hubble Telescope and images of Jupiter, found here https://tools.pds-rings.seti.org/opus/#/view=search&browse=gallery&colls_browse=gallery&page=1&gallery_data_viewer=true&limit=100&order=time1&cols=opusid,instrument,planet,target,time1,observationduration&widgets=planet,target&widgets2=&detail=  
 /biggerstorms - the third GAN created, generates images that (84*84) are supposed to mimicking a single band of a storm found within a gif.  
 
 All of the GAN folders have the same files to create the .csv and train them;  
