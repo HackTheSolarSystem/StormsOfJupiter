@@ -13,8 +13,7 @@
 ### Solution Description
 
 You must provide a paragraph describing the solution in some detail. This must be an entire paragraph, more than one or two sentences.
-It should explain whatever approaches you took to the problem, what you think worked and what did not work, and describe potential future
-work to be done.
+It should explain whatever approaches you took to the problem, what you think worked and what did not work, and describe potential future work to be done.
 
 ### Installation Instructions
 
