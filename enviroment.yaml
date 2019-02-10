@@ -1,0 +1,5 @@
+name: keras
+channels:
+  - defaults
+prefix: /anaconda3/envs/keras
+
