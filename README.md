@@ -24,19 +24,19 @@ The goal of our project is to **train a neural net on a sequence of raw Juno ima
 
 ### File Structure and Description
 
-rename.py - Renames the images in order to be read by the matlab files later.
-cnn.py - Mock example of a CNN that could be used with the GAN in future studies.
-gan.py - Basic structure and example of the GAN used in this project.
-README.md
-/smalljupiter - the first GAN created, generates images that (28*28) are supposed to be mimicking images found on the juno site of Jupiter.
-/smalljupiter - the second GAN created, generates images that (28*28) are supposed to be mimicking images from (put that there).
-/biggerstorms - the third GAN created, generates images that (84*84) are supposed to mimicking a single band of a storm found within a gif.
+rename.py - Renames the images in order to be read by the matlab files later.  
+cnn.py - Mock example of a CNN that could be used with the GAN in future studies.  
+gan.py - Basic structure and example of the GAN used in this project.  
+README.md  
+/smalljupiter - the first GAN created, generates images that (28*28) are supposed to be mimicking images found on the juno site of Jupiter.  
+/smalljupiter - the second GAN created, generates images that (28*28) are supposed to be mimicking images from (put that there).  
+/biggerstorms - the third GAN created, generates images that (84*84) are supposed to mimicking a single band of a storm found within a gif.  
 
-All of the GAN folders have the same files to create the .csv and train them;
-Images must be labeled Image0-N in order for them to work, which rename.py is programmed to do.
-resize.m - Resizes images to the correct shape and converts them to grayscale.
-generateimages.m - Generates the .csv called 'images.csv' for use with the GAN.
-gan.py - Takes the generated .csv and outputs .png files every 20 epochs.
+All of the GAN folders have the same files to create the .csv and train them;  
+Images must be labeled Image0-N in order for them to work, which rename.py is programmed to do.  
+resize.m - Resizes images to the correct shape and converts them to grayscale.  
+generateimages.m - Generates the .csv called 'images.csv' for use with the GAN.  
+gan.py - Takes the generated .csv and outputs .png files every 20 epochs.  
 
 ### Installation Instructions
 
