@@ -45,7 +45,7 @@ You must list by name all software packages, APIs, frameworks, databases, or any
 You must also provide any step-by-step instructions for installation of your solution.  
 * Step one - install package manager  
 Anaconda is used to handle the python packages and run the python scripts.
-Matlab is used to run the matlab scripts. 
+Matlab is used to run the matlab scripts. Matlab needs to license to run that can either be recieved through purchase or a trial.    
 * Step two - special config instructions  
 conda env create -f environment.yml  once anaconda is installed, within the anaconda prompt/command line/terminal.   
 * Step three - system administration notes
